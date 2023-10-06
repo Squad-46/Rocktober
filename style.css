@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;900&family=Playfair+Display:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #1c191a;
+}
+
+header{
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    padding: 1rem; 
+    color: #ff3131;
+    display: flex;
+    justify-content: space-between;
+}
+
+#special{
+    font-family: 'Playfair Display', serif;
+}
+
+#unique{
+    font-size: 15px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+#box1{
+    background-color: #f4b324;
+}
+
+#box2{
+    background-color: #f14902;
+}
+
+#box3{
+    background-color: #07a5c3;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    font-weight: 900;
+    font-size: 40px;
+    margin: 1rem;
+}
+
+.desc{
+    font-size: 20px;
+    margin: 1rem;
+}
+
+.box:nth-child(2n) .content{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.button{
+    background-color: #B931FC;
+    font-size: 20px;
+    width: fit-content;
+    padding: 0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box:hover{
+    transform: translate(5px,5px);
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    color: #ff3131;
+}
+
+img{
+    height: 70px;
+}
