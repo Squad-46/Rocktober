@@ -93,3 +93,7 @@ footer{
 img{
     height: 70px;
 }
+
+#kalvium{
+    cursor: pointer;
+}
