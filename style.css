@@ -20,6 +20,11 @@ header{
     justify-content: space-between;
 }
 
+#topic1{
+    text-align: center;
+    color: #ff3131;
+}
+
 #special{
     font-family: 'Playfair Display', serif;
 }
