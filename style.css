@@ -70,6 +70,7 @@ header{
     font-weight: 900;
     font-size: 40px;
     margin: 1rem;
+    padding-top: 50px;
 }
 
 .desc{
@@ -107,8 +108,33 @@ img{
 }
 
 @media (max-width: 600px){
-    .content{
-        flex-direction: column;
-        text-align: center;
+    header {
+        font-size: 20px;
     }
+
+    .name {
+        font-size: 24px;
+        padding-top: 10px;
+    }
+
+    .desc {
+        font-size: 5px;
+    }
+
+    .button {
+        font-size: 16px;
+    }
+
+    .box {
+        margin: 1rem;
+    }
+
+    #topic1, #topic2 {
+        font-size: 20px;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+}
 }
