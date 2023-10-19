@@ -20,9 +20,10 @@ header{
     justify-content: space-between;
 }
 
-#topic1{
+#topic1 , #topic2{
     text-align: center;
     color: #ff3131;
+    padding: 10px;
 }
 
 #special{
@@ -57,7 +58,9 @@ header{
 #box4{
     background-color: #42de86;
 }
-
+#box5{
+    background-color: #fc319d;
+}
 .content{
     display: flex;
     justify-content: space-between;
@@ -72,6 +75,7 @@ header{
 .desc{
     font-size: 20px;
     margin: 1rem;
+    padding: 10px;
 }
 
 .button{
